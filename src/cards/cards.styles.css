@@ -1,0 +1,47 @@
+.card {
+  width: 30%;
+  max-width: 367px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  background-color: white;
+  text-align: left;
+  font-size: 1rem;
+  color: black;
+}
+
+.card img {
+  max-height: 75%;
+  max-width: 100%;
+  display: block;
+}
+
+.card-author {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  align-items: center;
+}
+
+.card-author button {
+  border: none;
+  background: #404040;
+  font-weight: 100;
+  width: 3.5rem;
+  height: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-author button:hover {
+  background-color: #7a7a7a;
+}
+
+.card-author__link {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
