@@ -43,3 +43,10 @@
 .search::-webkit-search-results-decoration {
   display: none;
 }
+
+
+@media (max-width: 40rem) {
+  .search {
+    width: 70%;
+  }
+}

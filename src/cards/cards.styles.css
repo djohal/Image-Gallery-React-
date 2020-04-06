@@ -13,7 +13,6 @@
 }
 
 .card img {
-  max-height: 75%;
   max-width: 100%;
   display: block;
 }
@@ -44,4 +43,11 @@
   color: white;
   text-decoration: none;
   display: block;
+}
+
+
+@media (max-width: 40rem) {
+  .card {
+    width: 100%;
+  }
 }
