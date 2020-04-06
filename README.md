@@ -1,5 +1,6 @@
 ## Image Gallery
 Random generated image gallery created with [Create React App](https://github.com/facebook/create-react-app).
+
 https://djohal.github.io/image-gallery-react/
 
 ## Available Scripts
